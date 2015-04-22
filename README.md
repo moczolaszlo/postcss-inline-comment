@@ -1,6 +1,6 @@
 # PostCSS Inline Comments [![Build Status](https://travis-ci.org/moczolaszlo/postcss-inline-comment.svg)](https://travis-ci.org/moczolaszlo/postcss-inline-comment)
 
-[PostCSS](https://github.com/postcss/postcss) plugin to use inline comments in CSS. The only thing I missed from it.
+[PostCSS](https://github.com/postcss/postcss) plugin to use inline comments in CSS. The only thing I missed.
 
 ## Installation
 
@@ -17,11 +17,11 @@ var fs = require('fs'),
 var css = fs.readFileSync('style.css', 'utf8');
 
 var output = postcss()
-	   .use(inlineComment()
+	   .use(inlineComment())
 	   .process(css).css;
 ```
 
-Using this CSS:
+Using this 'style.css':
 
 ```css
 .foo {
@@ -38,5 +38,5 @@ you will get:
 }
 ```
 
-### Options
+## Options
 Nope.

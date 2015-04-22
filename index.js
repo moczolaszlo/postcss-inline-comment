@@ -5,7 +5,7 @@ module.exports = postcss.plugin('postcss-inline-comment', function() {
     return function (css) {
 
         css.eachDecl(function(decl){
-            if (decl.prop.match(/^\/\/.+/)) {
+            if (decl.prop.match(/^\/\/[\s]?.+/)) {
                 decl.removeSelf();
             }
         });

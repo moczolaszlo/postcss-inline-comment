@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-$ npm i postcss-inline-comment
+$ npm i postcss-inline-comment --save-dev
 ```
 ## Usage
 
@@ -25,7 +25,7 @@ Using this 'style.css':
 
 ```css
 .foo {
-  //margin: 0;
+  // margin: 0;
   padding: 0;
 }
 ```

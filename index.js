@@ -1,13 +1,14 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-inline-comment', function (opts) {
-    opts = opts || {};
-
-    // Work with options here
+module.exports = postcss.plugin('postcss-inline-comment', function () {
 
     return function (css) {
 
-        // Transform CSS AST here
+        css.eachDecl(function(decl){
+            if (decl.prop.match(/^\/\/.+/)) {
+                decl.removeSelf();
+            }
+        });
 
     };
 });

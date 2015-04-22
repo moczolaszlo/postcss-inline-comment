@@ -12,10 +12,8 @@ var test = function (input, output, opts, done) {
 
 describe('postcss-inline-comment', function () {
 
-    /* Write tests here
-
-    it('does something', function (done) {
-        test('a{ }', 'a{ }', { }, done);
-    });*/
+    it('Remove the declaration with inline comment', function (done) {
+        test('.foo{ //margin: 0; padding: 0; }', '.foo{ padding: 0; }', {}, done);
+    });
 
 });

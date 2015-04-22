@@ -1,7 +1,7 @@
 {
     "name": "postcss-inline-comment",
     "version": "1.0.0",
-    "description": "PostCSS plugin to convert inline comments to valid CSS comments",
+    "description": "PostCSS plugin to use inline comments in CSS.",
     "keywords": ["postcss", "css", "postcssplugin", "inline comment", "comments"],
     "author": "moczo.laszlo <moczo.laszlo@gmail.com>",
     "license": "MIT",

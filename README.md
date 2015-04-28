@@ -1,7 +1,6 @@
 # PostCSS Inline Comments [![Build Status](https://travis-ci.org/moczolaszlo/postcss-inline-comment.svg)](https://travis-ci.org/moczolaszlo/postcss-inline-comment) [![Dependencies](https://david-dm.org/moczolaszlo/postcss-inline-comment.svg)](https://david-dm.org/moczolaszlo/postcss-inline-comment)
 
 [PostCSS](https://github.com/postcss/postcss) plugin to use inline comments in CSS. The only thing I missed.
-(But it's only works for declarations inside rules, yet.)
 
 ## Installation
 
@@ -73,6 +72,7 @@ you will get:
   padding: 0;
 }
 ```
+(But it's only works for declarations inside rules, yet.)
 
 ## Options
 Nope.

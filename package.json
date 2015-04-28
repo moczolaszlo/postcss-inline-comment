@@ -1,6 +1,6 @@
 {
     "name": "postcss-inline-comment",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "PostCSS plugin to use inline comments in CSS.",
     "keywords": ["postcss", "css", "postcssplugin", "inline comment", "comments"],
     "author": "moczolaszlo <moczo.laszlo@gmail.com>",
@@ -10,13 +10,13 @@
         "url":  "https://github.com/moczolaszlo/postcss-inline-comment.git"
     },
     "dependencies": {
-        "postcss": "4.1.5"
+        "postcss": "~4.1.6"
     },
     "devDependencies": {
-        "gulp-eslint": "0.9.0",
-        "gulp-mocha":  "2.0.1",
-        "chai":        "2.2.0",
-        "gulp":        "3.8.11"
+        "gulp-eslint": "~0.11.1",
+        "gulp-mocha":  "~2.0.1",
+        "chai":        "~2.3.0",
+        "gulp":        "~3.8.11"
     },
     "scripts": {
         "test": "gulp"

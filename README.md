@@ -60,7 +60,7 @@ gulp.task('postcss', function(){
 
 ```css
 .foo {
-  // margin: 0;
+  //margin: 0;
   padding: 0;
 }
 ```

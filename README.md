@@ -52,7 +52,7 @@ var postCSS_InlineComment = require('postcss-inline-comment');
 gulp.task('postcss', function(){
 	gulp.src('src/style.css')
 		.pipe(postCSS([ postCSS_InlineComment() ]))
-		.pipe(gulp.dest('dest/style.css'));
+		.pipe(gulp.dest('dest'));
 });
 ```
 

@@ -1,3 +1,8 @@
+# 1.0.4 - 2015-05-28
+
+- Fit to PostCSS plugin guidelines
+- Update dependencies
+
 # 1.0.3 - 2015-04-29
 
 - Update dependencies

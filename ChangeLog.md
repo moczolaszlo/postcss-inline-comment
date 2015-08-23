@@ -1,3 +1,7 @@
+# 2.0.0 - 2015-08-23
+- Works with postCSS ^5.0.0
+- Updated dependencies
+
 # 1.0.5 - 2015-07-21
 
 - More tests added (check it if you use this with CSS variable plugins)

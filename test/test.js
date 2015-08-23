@@ -16,13 +16,15 @@ var test = function(plugins, input, output, done) {
 };
 
 describe('postcss-inline-comment', function() {
-
     it('Remove the declaration', function(done) {
         test([ inlineComment() ],
-        '.foo{ //margin: 0; padding: 0; }', '.foo{ padding: 0; }',
+        '.foo{ //margin: 0; padding: 0; }',
+        '.foo{ padding: 0; }',
         done);
     });
+});
 
+describe('use with CSS variable plugins', function() {
     it('Remove the declaration if used "custom-properties"', function(done) {
         test([ customProperties(), inlineComment() ],
         ':root { --color: red; } .foo{ margin: 0; //color: var(--color); }',
@@ -43,5 +45,4 @@ describe('postcss-inline-comment', function() {
         '.foo{ margin: 0; }',
         done);
     });
-
 });

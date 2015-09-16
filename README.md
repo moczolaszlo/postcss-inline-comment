@@ -76,3 +76,6 @@ you will get:
 
 ## Options
 Nope.
+
+## It's not deprecated, but...
+If You write your stylesheet with SCSS syntax, take a look at [postCSS-SCSS](https://github.com/postcss/postcss-scss).

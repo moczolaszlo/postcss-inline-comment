@@ -2,9 +2,6 @@
 
 [PostCSS](https://github.com/postcss/postcss) plugin to use inline comments in CSS. The only thing I missed.
 
-## It is just a little hack
-Fell free to use it, but if you want use SCSS syntax take a look at [postCSS-SCSS](https://github.com/postcss/postcss-scss).
-
 ## Installation
 
 ```
@@ -79,3 +76,6 @@ you will get:
 
 ## Options
 Nope.
+
+## It is just a little hack
+Feel free to use it, but if you want work with SCSS syntax take a look at [postCSS-SCSS](https://github.com/postcss/postcss-scss).

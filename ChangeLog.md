@@ -1,4 +1,4 @@
-# 2.1.0 - 2015-08-23
+# 2.1.0 - 2016-05-05
 - Improvement of Regex - thanks to @firasdib
 - Updated dependencies
 

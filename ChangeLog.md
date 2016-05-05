@@ -1,3 +1,7 @@
+# 2.1.0 - 2015-08-23
+- Improvement of Regex - thanks to @firasdib
+- Updated dependencies
+
 # 2.0.0 - 2015-08-23
 - Works with postCSS ^5.0.0
 - Updated dependencies
@@ -19,7 +23,7 @@
 
 # 1.0.2 - 2015-04-23
 
-- Merge pull request from @neonick: https://github.com/moczolaszlo/postcss-inline-comment/pull/1
+- Merge pull request from @neonick
 
 # 1.0.1 - 2015-04-22
 

@@ -2,6 +2,10 @@
 
 [PostCSS](https://github.com/postcss/postcss) plugin to use inline comments in CSS. The only thing I missed.
 
+## It's depreacted
+
+Please use [postCSS-SCSS](https://github.com/postcss/postcss-scss#inline-comments-for-postcss) instead.
+
 ## Installation
 
 ```

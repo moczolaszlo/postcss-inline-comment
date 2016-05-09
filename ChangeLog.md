@@ -1,3 +1,6 @@
+# 3.0.0 - 2016.05.09
+- Deprecation
+
 # 2.1.0 - 2016-05-05
 - Improvement of Regex - thanks to @firasdib
 - Updated dependencies
